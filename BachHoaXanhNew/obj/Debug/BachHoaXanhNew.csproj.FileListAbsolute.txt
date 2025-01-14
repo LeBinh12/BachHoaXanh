@@ -1,0 +1,132 @@
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\BachHoaXanhNew.exe.config
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\BachHoaXanhNew.exe
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\BachHoaXanhNew.pdb
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\Guna.UI2.dll
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.csproj.AssemblyReference.cache
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.csproj.SuggestedBindingRedirects.cache
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Properties.Resources.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.csproj.GenerateResource.cache
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.csproj.CoreCompileInputs.cache
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.csproj.CopyComplete
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.exe
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.pdb
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\EntityFramework.dll
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\EntityFramework.xml
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Migrations.InitialCreate.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Home.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Login.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.ChangePassword.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Staffs.Staff.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanh.QuanLySupplier.Function.AddSupplier.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanh.QuanLySupplier.Function.DeleteSupplier.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanh.QuanLySupplier.Function.UpdateSupplier.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Migrations.InitialCreate1.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Suppliers.FormSuppliers.resources
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\BachHoaXanhNew.exe.config
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\BachHoaXanhNew.exe
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\BachHoaXanhNew.pdb
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\EntityFramework.dll
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\EntityFramework.SqlServer.dll
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\Guna.UI2.dll
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\EntityFramework.xml
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\EntityFramework.SqlServer.xml
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.csproj.AssemblyReference.cache
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Categories.Categories.resources
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Categories.Function.AddCategory.resources
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.ChangePassword.resources
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Home.resources
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Login.resources
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Migrations.InitialCreate.resources
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Migrations.InitialCreate1.resources
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Properties.Resources.resources
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Staffs.Staff.resources
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Suppliers.FormSuppliers.resources
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanh.QuanLySupplier.Function.AddSupplier.resources
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanh.QuanLySupplier.Function.DeleteSupplier.resources
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanh.QuanLySupplier.Function.UpdateSupplier.resources
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.csproj.GenerateResource.cache
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.csproj.CoreCompileInputs.cache
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaX.C9037D68.Up2Date
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.exe
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.pdb
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Branch.Branch.resources
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Branch.Function.AddBranch.resources
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Branch.Function.DeleteBranch.resources
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Branch.Function.UpdateBranch.resources
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Categories.Function.DeleteCategory.resources
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Categories.Function.UpdateCategory.resources
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Products.Function.AddProducts.resources
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Products.Function.DeleteProducts.resources
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Products.Function.UpdateProducts.resources
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Products.Products.resources
+D:\XuLiAnh\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Branch.Branchs.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.csproj.AssemblyReference.cache
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.csproj.SuggestedBindingRedirects.cache
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.exe
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.pdb
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\BachHoaXanhNew.exe.config
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\BachHoaXanhNew.exe
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\BachHoaXanhNew.pdb
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\EntityFramework.dll
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\Guna.UI2.dll
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\EntityFramework.xml
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Categories.Function.AddCategory.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Categories.Function.DeleteCategory.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Categories.Function.UpdateCategory.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.ChangePassword.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Home.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Login.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Products.Function.AddProducts.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Products.Function.DeleteProducts.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Products.Function.UpdateProducts.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Properties.Resources.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Staffs.Staff.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Suppliers.FormSuppliers.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanh.QuanLySupplier.Function.AddSupplier.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanh.QuanLySupplier.Function.DeleteSupplier.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanh.QuanLySupplier.Function.UpdateSupplier.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.csproj.GenerateResource.cache
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.csproj.CoreCompileInputs.cache
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.csproj.CopyComplete
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Categories.Categoriess.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Migrations.InitialCreate.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Branchss.Branchs.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Branchss.Function.AddBranch.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Branchss.Function.DeleteBranch.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Branchss.Function.UpdateBranch.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Migrations.InitialCreate1.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Products.Productss.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Staffs.Functions.AddStaff.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Migrations.UpdateDatabaseSchema.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Migrations.UpdateDatabaseSchema2.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Migrations.UpdateDatabaseSchema3.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Staffs.Functions.UpdateStaff.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Staffs.Functions.DeleteStaff.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\EPPlus.dll
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\System.Buffers.dll
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\System.Drawing.Common.dll
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\System.Memory.dll
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\EPPlus.xml
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\System.Buffers.xml
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\System.Drawing.Common.pdb
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\System.Drawing.Common.xml
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\System.Memory.xml
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Products.Function.AddProductExel.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\zxing.dll
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\zxing.presentation.dll
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\zxing.xml
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\zxing.presentation.xml
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Test.resources

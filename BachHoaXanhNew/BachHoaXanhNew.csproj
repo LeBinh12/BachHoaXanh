@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7AFD324F-7EFD-4358-8337-B81958D73F40}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BachHoaXanhNew</RootNamespace>
+    <AssemblyName>BachHoaXanhNew</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus, Version=7.5.2.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.7.5.2\lib\net462\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus.Interfaces, Version=7.5.0.0, Culture=neutral, PublicKeyToken=a694d7f3b0907a61, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.Interfaces.7.5.0\lib\net462\EPPlus.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus.System.Drawing, Version=7.5.0.0, Culture=neutral, PublicKeyToken=2308d35469c9bac0, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.System.Drawing.7.5.0\lib\net462\EPPlus.System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IO.RecyclableMemoryStream, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IO.RecyclableMemoryStream.3.0.1\lib\netstandard2.0\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Annotations.5.0.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.8.0.4\lib\net462\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.9\lib\net47\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.9\lib\net47\zxing.presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Branchss\Branchs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Branchss\Branchs.Designer.cs">
+      <DependentUpon>Branchs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Branchss\Function\AddBranch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Branchss\Function\AddBranch.Designer.cs">
+      <DependentUpon>AddBranch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Branchss\Function\DeleteBranch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Branchss\Function\DeleteBranch.Designer.cs">
+      <DependentUpon>DeleteBranch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Branchss\Function\UpdateBranch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Branchss\Function\UpdateBranch.Designer.cs">
+      <DependentUpon>UpdateBranch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Categoriess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Categories\Categoriess.Designer.cs">
+      <DependentUpon>Categoriess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Function\AddCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Categories\Function\AddCategory.Designer.cs">
+      <DependentUpon>AddCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Function\DeleteCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Categories\Function\DeleteCategory.Designer.cs">
+      <DependentUpon>DeleteCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Categories\Function\UpdateCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Categories\Function\UpdateCategory.Designer.cs">
+      <DependentUpon>UpdateCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.Designer.cs">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Admin.cs" />
+    <Compile Include="Data\ApplicationDbContext.cs" />
+    <Compile Include="Data\Bill.cs" />
+    <Compile Include="Data\BillDetail.cs" />
+    <Compile Include="Data\Branch.cs" />
+    <Compile Include="Data\Category.cs" />
+    <Compile Include="Contact.cs" />
+    <Compile Include="Data\Customer.cs" />
+    <Compile Include="Data\EmloyeeRole.cs" />
+    <Compile Include="Data\EmloyeeRolePermission.cs" />
+    <Compile Include="Data\Employee.cs" />
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Position.cs" />
+    <Compile Include="Data\Product.cs" />
+    <Compile Include="Migrations\202412161451422_InitialCreate.cs" />
+    <Compile Include="Migrations\202412161451422_InitialCreate.designer.cs">
+      <DependentUpon>202412161451422_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202412171530480_InitialCreate1.cs" />
+    <Compile Include="Migrations\202412171530480_InitialCreate1.designer.cs">
+      <DependentUpon>202412171530480_InitialCreate1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202412311024219_UpdateDatabaseSchema.cs" />
+    <Compile Include="Migrations\202412311024219_UpdateDatabaseSchema.designer.cs">
+      <DependentUpon>202412311024219_UpdateDatabaseSchema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202412311124484_UpdateDatabaseSchema2.cs" />
+    <Compile Include="Migrations\202412311124484_UpdateDatabaseSchema2.designer.cs">
+      <DependentUpon>202412311124484_UpdateDatabaseSchema2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202412311207598_UpdateDatabaseSchema3.cs" />
+    <Compile Include="Migrations\202412311207598_UpdateDatabaseSchema3.designer.cs">
+      <DependentUpon>202412311207598_UpdateDatabaseSchema3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Products\Function\AddProductExel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Products\Function\AddProductExel.Designer.cs">
+      <DependentUpon>AddProductExel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Products\Function\AddProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Products\Function\AddProducts.Designer.cs">
+      <DependentUpon>AddProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Products\Function\DeleteProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Products\Function\DeleteProducts.Designer.cs">
+      <DependentUpon>DeleteProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Products\Function\UpdateProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Products\Function\UpdateProducts.Designer.cs">
+      <DependentUpon>UpdateProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Products\Productss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Products\Productss.Designer.cs">
+      <DependentUpon>Productss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\Admin.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Data\Supplier.cs" />
+    <Compile Include="Staffs\Functions\AddStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staffs\Functions\AddStaff.Designer.cs">
+      <DependentUpon>AddStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staffs\Functions\DeleteStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staffs\Functions\DeleteStaff.Designer.cs">
+      <DependentUpon>DeleteStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staffs\Functions\UpdateStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staffs\Functions\UpdateStaff.Designer.cs">
+      <DependentUpon>UpdateStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staffs\Staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staffs\Staff.Designer.cs">
+      <DependentUpon>Staff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suppliers\Suppliers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suppliers\Suppliers.Designer.cs">
+      <DependentUpon>Suppliers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suppliers\Function\AddSuppliers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suppliers\Function\AddSuppliers.designer.cs">
+      <DependentUpon>AddSuppliers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suppliers\Function\DeleteSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suppliers\Function\DeleteSupplier.designer.cs">
+      <DependentUpon>DeleteSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suppliers\Function\UpdateSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suppliers\Function\UpdateSupplier.designer.cs">
+      <DependentUpon>UpdateSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test.Designer.cs">
+      <DependentUpon>Test.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Branchss\Branchs.resx">
+      <DependentUpon>Branchs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Branchss\Function\AddBranch.resx">
+      <DependentUpon>AddBranch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Branchss\Function\DeleteBranch.resx">
+      <DependentUpon>DeleteBranch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Branchss\Function\UpdateBranch.resx">
+      <DependentUpon>UpdateBranch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Categories\Categoriess.resx">
+      <DependentUpon>Categoriess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Categories\Function\AddCategory.resx">
+      <DependentUpon>AddCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Categories\Function\DeleteCategory.resx">
+      <DependentUpon>DeleteCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Categories\Function\UpdateCategory.resx">
+      <DependentUpon>UpdateCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePassword.resx">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202412161451422_InitialCreate.resx">
+      <DependentUpon>202412161451422_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202412171530480_InitialCreate1.resx">
+      <DependentUpon>202412171530480_InitialCreate1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202412311024219_UpdateDatabaseSchema.resx">
+      <DependentUpon>202412311024219_UpdateDatabaseSchema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202412311124484_UpdateDatabaseSchema2.resx">
+      <DependentUpon>202412311124484_UpdateDatabaseSchema2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202412311207598_UpdateDatabaseSchema3.resx">
+      <DependentUpon>202412311207598_UpdateDatabaseSchema3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Products\Function\AddProductExel.resx">
+      <DependentUpon>AddProductExel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Products\Function\AddProducts.resx">
+      <DependentUpon>AddProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Products\Function\DeleteProducts.resx">
+      <DependentUpon>DeleteProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Products\Function\UpdateProducts.resx">
+      <DependentUpon>UpdateProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Products\Productss.resx">
+      <DependentUpon>Productss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Staffs\Functions\AddStaff.resx">
+      <DependentUpon>AddStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staffs\Functions\DeleteStaff.resx">
+      <DependentUpon>DeleteStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staffs\Functions\UpdateStaff.resx">
+      <DependentUpon>UpdateStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staffs\Staff.resx">
+      <DependentUpon>Staff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suppliers\Suppliers.resx">
+      <DependentUpon>Suppliers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suppliers\Function\AddSuppliers.resx">
+      <DependentUpon>AddSuppliers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suppliers\Function\DeleteSupplier.resx">
+      <DependentUpon>DeleteSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suppliers\Function\UpdateSupplier.resx">
+      <DependentUpon>UpdateSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test.resx">
+      <DependentUpon>Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroud.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\block.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z5996837495316_61c9c9b43b448ec85c4c1e6ce648f551.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroup2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroud1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroud1-Photoroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroud3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\broccoli-8174625_1280.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroud31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroud2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroud2-Photoroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImageLogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImageLogin1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImageLogin2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Loading.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Staff.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supplier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Category.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Product.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User-Group-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout-icon.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" />
+</Project>
