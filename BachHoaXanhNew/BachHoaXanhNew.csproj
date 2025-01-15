@@ -159,7 +159,7 @@
     <Compile Include="Data\Admin.cs" />
     <Compile Include="Data\ApplicationDbContext.cs" />
     <Compile Include="Data\Bill.cs" />
-    <Compile Include="Data\BillDetail.cs" />
+    <Compile Include="Data\HistoryBillDetail.cs" />
     <Compile Include="Data\Branch.cs" />
     <Compile Include="Data\Category.cs" />
     <Compile Include="Contact.cs" />
@@ -167,6 +167,16 @@
     <Compile Include="Data\EmloyeeRole.cs" />
     <Compile Include="Data\EmloyeeRolePermission.cs" />
     <Compile Include="Data\Employee.cs" />
+    <Compile Include="Migrations\202501151353487_InitialCreate3.cs" />
+    <Compile Include="Migrations\202501151353487_InitialCreate3.designer.cs">
+      <DependentUpon>202501151353487_InitialCreate3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatisticalHistory\History.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatisticalHistory\History.Designer.cs">
+      <DependentUpon>History.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -200,6 +210,10 @@
     <Compile Include="Migrations\202412311207598_UpdateDatabaseSchema3.cs" />
     <Compile Include="Migrations\202412311207598_UpdateDatabaseSchema3.designer.cs">
       <DependentUpon>202412311207598_UpdateDatabaseSchema3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202501151225243_InitialCreate2.cs" />
+    <Compile Include="Migrations\202501151225243_InitialCreate2.designer.cs">
+      <DependentUpon>202501151225243_InitialCreate2.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Products\Function\AddProductExel.cs">
@@ -338,6 +352,12 @@
     <EmbeddedResource Include="Migrations\202412311207598_UpdateDatabaseSchema3.resx">
       <DependentUpon>202412311207598_UpdateDatabaseSchema3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202501151225243_InitialCreate2.resx">
+      <DependentUpon>202501151225243_InitialCreate2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202501151353487_InitialCreate3.resx">
+      <DependentUpon>202501151353487_InitialCreate3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Products\Function\AddProductExel.resx">
       <DependentUpon>AddProductExel.cs</DependentUpon>
     </EmbeddedResource>
@@ -374,6 +394,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Staffs\Staff.resx">
       <DependentUpon>Staff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticalHistory\History.resx">
+      <DependentUpon>History.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Suppliers\Suppliers.resx">
       <DependentUpon>Suppliers.cs</DependentUpon>

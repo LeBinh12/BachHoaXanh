@@ -19,7 +19,7 @@ namespace BachHoaXanhNew.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Bill> Bills { get; set; }
-        public DbSet<BillDetail> BillDetails { get; set; }
+        public DbSet<HistoryBillDetail> BillDetails { get; set; }
 
         public DbSet<EmloyeeRole> emloyeeRoles { get; set; }
         public DbSet<EmloyeeRolePermission> emloyeeRolesPermission { get; set;}

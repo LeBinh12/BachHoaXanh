@@ -138,5 +138,10 @@ namespace BachHoaXanhNew
         {
             OpenChildForm(new Test());
         }
+
+        private void btnStatisticalHistory_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new History());
+        }
     }
 }

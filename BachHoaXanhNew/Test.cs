@@ -1,4 +1,5 @@
 ﻿using BachHoaXanhNew.Data;
+using OfficeOpenXml.Export.HtmlExport.StyleCollectors.StyleContracts;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -135,12 +136,99 @@ namespace BachHoaXanhNew
             }
         }
 
-        private void btnAddBill_Click(object sender, EventArgs e)
+
+        private void SaveBillDetails(int billId, decimal totalPrice)
         {
             try
             {
                 foreach (DataGridViewRow row in dtgvBill.Rows)
                 {
+                    if (row.Cells["ID_PRODUCT"].Value != null && row.Cells["QUANTITY"].Value != null)
+                    {
+                        int productId = Convert.ToInt32(row.Cells["ID_PRODUCT"].Value);
+                        int quantity = Convert.ToInt32(row.Cells["QUANTITY"].Value);
+
+                        // Lấy giá sản phẩm từ cơ sở dữ liệu
+                        decimal unitPrice = GetProductPrice(productId);
+
+                        var billDetail = new HistoryBillDetail
+                        {
+                            ID_BILL = billId,
+                            ID_PRODUCT = productId,
+                            QUANTITY = quantity,
+                            UNIT_PRICE = unitPrice,
+                            TimeBill = DateTime.Now
+                        };
+
+                        data.BillDetails.Add(billDetail);
+                    }
+                }
+
+                data.SaveChanges();
+
+                MessageBox.Show("Thông tin hóa đơn chi tiết đã được lưu!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Đã xảy ra lỗi khi lưu hóa đơn chi tiết: {ex.Message}\n" +
+                                $"Chi tiết lỗi: {ex.InnerException?.Message}",
+                                "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
+
+        private decimal GetProductPrice(int productId)
+        {
+            var product = data.Products.FirstOrDefault(p => p.ID_PRODUCT == productId);
+            return product != null ? product.PRICE : 0; // Trả về giá của sản phẩm hoặc 0 nếu không tìm thấy
+        }
+
+
+        private int GenerateUniqueBillId()
+        {
+            Random random = new Random();
+            int billId;
+
+            do
+            {
+                billId = random.Next(100000, 999999); 
+            }
+            while (data.BillDetails.Any(b => b.ID_BILL == billId));
+
+            return billId;
+        }
+
+
+        private void btnAddBill_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int idBill = GenerateUniqueBillId();
+                decimal totalPrice;
+
+                string rawTotalPrice = txtTotalPrice.Text.Replace("VNĐ", "").Replace(",", "").Trim();
+
+                if (string.IsNullOrWhiteSpace(rawTotalPrice) || !decimal.TryParse(rawTotalPrice, out totalPrice) || totalPrice <= 0)
+                {
+                    MessageBox.Show("Tổng tiền không hợp lệ! Vui lòng nhập giá trị hợp lệ (lớn hơn 0).", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                if (dtgvBill.Rows.Count > 0 && dtgvBill.Rows[0].IsNewRow)
+                {
+                    dtgvBill.Rows.RemoveAt(0);
+                }
+
+                foreach (DataGridViewRow row in dtgvBill.Rows)
+                {
+                    if (row.IsNewRow) continue;
+
+                    if (row.Cells["ID_PRODUCT"].Value == null || row.Cells["QUANTITY"].Value == null)
+                    {
+                        MessageBox.Show("Dữ liệu không hợp lệ trong bảng hóa đơn!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        return;
+                    }
+
                     int productId = Convert.ToInt32(row.Cells["ID_PRODUCT"].Value);
                     int quantityToBuy = Convert.ToInt32(row.Cells["QUANTITY"].Value);
 
@@ -154,7 +242,6 @@ namespace BachHoaXanhNew
                         {
                             int newStock = currentStock - quantityToBuy;
                             productRow.Cells["QUANTITY_STOCK"].Value = newStock;
-
                             UpdateProductStockInDatabase(productId, newStock);
                         }
                         else
@@ -166,10 +253,11 @@ namespace BachHoaXanhNew
                     }
                 }
 
-                // Thông báo thành công
+                SaveBillDetails(idBill, totalPrice);
+
                 MessageBox.Show("Thanh toán thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                dtgvBill.Rows.Clear(); 
+                dtgvBill.Rows.Clear();
                 RefreshProductGrid();
             }
             catch (Exception ex)

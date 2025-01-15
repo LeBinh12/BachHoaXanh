@@ -130,3 +130,6 @@ C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXa
 C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\zxing.xml
 C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\bin\Debug\zxing.presentation.xml
 C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Test.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Migrations.InitialCreate2.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.History.resources
+C:\Users\PHUOC BINH\Documents\C#\BachHoaXanhNew (1)\BachHoaXanhNew (1)\BachHoaXanhNew\BachHoaXanhNew\obj\Debug\BachHoaXanhNew.Migrations.InitialCreate3.resources

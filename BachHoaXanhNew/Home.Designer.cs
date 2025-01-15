@@ -29,10 +29,8 @@
         private void InitializeComponent()
         {
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnBill = new Guna.UI2.WinForms.Guna2Button();
             this.lblUser = new System.Windows.Forms.Label();
-            this.panelBody = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.lblBranch = new System.Windows.Forms.Label();
             this.btnBranch = new Guna.UI2.WinForms.Guna2Button();
             this.btnExit = new Guna.UI2.WinForms.Guna2Button();
             this.btnProduct = new Guna.UI2.WinForms.Guna2Button();
@@ -40,7 +38,10 @@
             this.btnSupplier = new Guna.UI2.WinForms.Guna2Button();
             this.btnStaff = new Guna.UI2.WinForms.Guna2Button();
             this.btnChangePassword = new Guna.UI2.WinForms.Guna2Button();
-            this.btnBill = new Guna.UI2.WinForms.Guna2Button();
+            this.panelBody = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.lblBranch = new System.Windows.Forms.Label();
+            this.btnStatisticalHistory = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
@@ -48,6 +49,7 @@
             // guna2Panel2
             // 
             this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(139)))), ((int)(((byte)(0)))));
+            this.guna2Panel2.Controls.Add(this.btnStatisticalHistory);
             this.guna2Panel2.Controls.Add(this.btnBill);
             this.guna2Panel2.Controls.Add(this.lblUser);
             this.guna2Panel2.Controls.Add(this.btnBranch);
@@ -63,6 +65,29 @@
             this.guna2Panel2.Size = new System.Drawing.Size(302, 1055);
             this.guna2Panel2.TabIndex = 1;
             // 
+            // btnBill
+            // 
+            this.btnBill.BorderColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnBill.BorderRadius = 10;
+            this.btnBill.BorderThickness = 1;
+            this.btnBill.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnBill.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnBill.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnBill.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnBill.FillColor = System.Drawing.Color.PapayaWhip;
+            this.btnBill.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBill.ForeColor = System.Drawing.Color.Black;
+            this.btnBill.Image = global::BachHoaXanhNew.Properties.Resources.Bill;
+            this.btnBill.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnBill.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnBill.Location = new System.Drawing.Point(12, 649);
+            this.btnBill.Name = "btnBill";
+            this.btnBill.Size = new System.Drawing.Size(273, 66);
+            this.btnBill.TabIndex = 10;
+            this.btnBill.Text = "Thanh Toán";
+            this.btnBill.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnBill.Click += new System.EventHandler(this.btnBill_Click_1);
+            // 
             // lblUser
             // 
             this.lblUser.AutoSize = true;
@@ -72,36 +97,6 @@
             this.lblUser.Size = new System.Drawing.Size(177, 38);
             this.lblUser.TabIndex = 9;
             this.lblUser.Text = "Họ và Tên";
-            // 
-            // panelBody
-            // 
-            this.panelBody.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelBody.Location = new System.Drawing.Point(302, 145);
-            this.panelBody.Name = "panelBody";
-            this.panelBody.Size = new System.Drawing.Size(1622, 910);
-            this.panelBody.TabIndex = 3;
-            this.panelBody.Paint += new System.Windows.Forms.PaintEventHandler(this.panelBody_Paint);
-            // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(139)))), ((int)(((byte)(0)))));
-            this.guna2Panel1.Controls.Add(this.lblBranch);
-            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Panel1.Location = new System.Drawing.Point(302, 0);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1622, 145);
-            this.guna2Panel1.TabIndex = 2;
-            // 
-            // lblBranch
-            // 
-            this.lblBranch.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBranch.Location = new System.Drawing.Point(0, 0);
-            this.lblBranch.Name = "lblBranch";
-            this.lblBranch.Size = new System.Drawing.Size(1630, 155);
-            this.lblBranch.TabIndex = 0;
-            this.lblBranch.Text = "HỆ THỐNG QUẢN LÝ BÁCH HÓA XANH";
-            this.lblBranch.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblBranch.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnBranch
             // 
@@ -265,28 +260,59 @@
             this.btnChangePassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnChangePassword.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
-            // btnBill
+            // panelBody
             // 
-            this.btnBill.BorderColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnBill.BorderRadius = 10;
-            this.btnBill.BorderThickness = 1;
-            this.btnBill.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnBill.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnBill.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnBill.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnBill.FillColor = System.Drawing.Color.PapayaWhip;
-            this.btnBill.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBill.ForeColor = System.Drawing.Color.Black;
-            this.btnBill.Image = global::BachHoaXanhNew.Properties.Resources.Bill;
-            this.btnBill.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnBill.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnBill.Location = new System.Drawing.Point(12, 649);
-            this.btnBill.Name = "btnBill";
-            this.btnBill.Size = new System.Drawing.Size(273, 66);
-            this.btnBill.TabIndex = 10;
-            this.btnBill.Text = "Thanh Toán";
-            this.btnBill.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnBill.Click += new System.EventHandler(this.btnBill_Click_1);
+            this.panelBody.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelBody.Location = new System.Drawing.Point(302, 145);
+            this.panelBody.Name = "panelBody";
+            this.panelBody.Size = new System.Drawing.Size(1622, 910);
+            this.panelBody.TabIndex = 3;
+            this.panelBody.Paint += new System.Windows.Forms.PaintEventHandler(this.panelBody_Paint);
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(139)))), ((int)(((byte)(0)))));
+            this.guna2Panel1.Controls.Add(this.lblBranch);
+            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2Panel1.Location = new System.Drawing.Point(302, 0);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(1622, 145);
+            this.guna2Panel1.TabIndex = 2;
+            // 
+            // lblBranch
+            // 
+            this.lblBranch.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBranch.Location = new System.Drawing.Point(0, 0);
+            this.lblBranch.Name = "lblBranch";
+            this.lblBranch.Size = new System.Drawing.Size(1630, 155);
+            this.lblBranch.TabIndex = 0;
+            this.lblBranch.Text = "HỆ THỐNG QUẢN LÝ BÁCH HÓA XANH";
+            this.lblBranch.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblBranch.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // btnStatisticalHistory
+            // 
+            this.btnStatisticalHistory.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnStatisticalHistory.BorderColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnStatisticalHistory.BorderRadius = 10;
+            this.btnStatisticalHistory.BorderThickness = 1;
+            this.btnStatisticalHistory.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnStatisticalHistory.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnStatisticalHistory.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnStatisticalHistory.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnStatisticalHistory.FillColor = System.Drawing.Color.PapayaWhip;
+            this.btnStatisticalHistory.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStatisticalHistory.ForeColor = System.Drawing.Color.Black;
+            this.btnStatisticalHistory.Image = global::BachHoaXanhNew.Properties.Resources.Loading;
+            this.btnStatisticalHistory.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnStatisticalHistory.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnStatisticalHistory.Location = new System.Drawing.Point(12, 145);
+            this.btnStatisticalHistory.Name = "btnStatisticalHistory";
+            this.btnStatisticalHistory.Size = new System.Drawing.Size(273, 66);
+            this.btnStatisticalHistory.TabIndex = 11;
+            this.btnStatisticalHistory.Text = "Thống kê và lịch sử";
+            this.btnStatisticalHistory.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnStatisticalHistory.Click += new System.EventHandler(this.btnStatisticalHistory_Click);
             // 
             // Home
             // 
@@ -322,5 +348,6 @@
         private Guna.UI2.WinForms.Guna2Button btnBranch;
         private System.Windows.Forms.Label lblUser;
         private Guna.UI2.WinForms.Guna2Button btnBill;
+        private Guna.UI2.WinForms.Guna2Button btnStatisticalHistory;
     }
 }
