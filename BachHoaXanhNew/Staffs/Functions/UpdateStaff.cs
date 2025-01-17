@@ -107,10 +107,7 @@ namespace BachHoaXanhNew.Staffs.Functions
             }
             else
             {
-                MessageBox.Show("Dữ liệu không tồn tại");
-                Staff staff = new Staff();
                 this.Hide();
-                staff.Show();
             }
 
         }

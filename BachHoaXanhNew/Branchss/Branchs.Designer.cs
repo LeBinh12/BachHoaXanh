@@ -149,6 +149,7 @@ namespace BachHoaXanhNew.Branchss
             this.dtgvBranch.Size = new System.Drawing.Size(531, 445);
             this.dtgvBranch.TabIndex = 4;
             this.dtgvBranch.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvBranch_CellClick);
+            this.dtgvBranch.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvBranch_CellClick);
             // 
             // groupBox1
             // 

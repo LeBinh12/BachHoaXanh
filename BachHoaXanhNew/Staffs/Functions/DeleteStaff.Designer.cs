@@ -49,6 +49,7 @@
             // 
             // txtChangePassword
             // 
+            this.txtChangePassword.BorderRadius = 10;
             this.txtChangePassword.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtChangePassword.DefaultText = "";
             this.txtChangePassword.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -56,19 +57,21 @@
             this.txtChangePassword.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtChangePassword.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtChangePassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtChangePassword.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtChangePassword.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtChangePassword.ForeColor = System.Drawing.Color.Black;
             this.txtChangePassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtChangePassword.Location = new System.Drawing.Point(280, 506);
+            this.txtChangePassword.Location = new System.Drawing.Point(307, 470);
             this.txtChangePassword.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtChangePassword.Name = "txtChangePassword";
             this.txtChangePassword.PasswordChar = '\0';
             this.txtChangePassword.PlaceholderText = "";
             this.txtChangePassword.SelectedText = "";
             this.txtChangePassword.Size = new System.Drawing.Size(334, 39);
-            this.txtChangePassword.TabIndex = 52;
+            this.txtChangePassword.TabIndex = 69;
             // 
             // txtPassword
             // 
+            this.txtPassword.BorderRadius = 10;
             this.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtPassword.DefaultText = "";
             this.txtPassword.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -77,46 +80,47 @@
             this.txtPassword.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtPassword.Enabled = false;
             this.txtPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.ForeColor = System.Drawing.Color.Black;
             this.txtPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPassword.Location = new System.Drawing.Point(280, 450);
+            this.txtPassword.Location = new System.Drawing.Point(307, 414);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '\0';
             this.txtPassword.PlaceholderText = "";
             this.txtPassword.SelectedText = "";
             this.txtPassword.Size = new System.Drawing.Size(334, 39);
-            this.txtPassword.TabIndex = 51;
+            this.txtPassword.TabIndex = 68;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(39, 506);
+            this.label8.Location = new System.Drawing.Point(66, 480);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(204, 29);
-            this.label8.TabIndex = 50;
-            this.label8.Text = "Nhập lại mật khẩu";
+            this.label8.Size = new System.Drawing.Size(210, 29);
+            this.label8.TabIndex = 67;
+            this.label8.Text = "Nhập lại mật khẩu:";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(37, 450);
+            this.label7.Location = new System.Drawing.Point(66, 424);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(113, 29);
-            this.label7.TabIndex = 49;
-            this.label7.Text = "Mật Khẩu";
+            this.label7.Size = new System.Drawing.Size(115, 29);
+            this.label7.TabIndex = 66;
+            this.label7.Text = "Mật khẩu:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(784, 84);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(748, 81);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(264, 38);
-            this.label6.TabIndex = 48;
-            this.label6.Text = "Quyền nhân viên";
+            this.label6.Size = new System.Drawing.Size(197, 29);
+            this.label6.TabIndex = 65;
+            this.label6.Text = "Quyền nhân viên:";
             // 
             // gbRoleEmployee
             // 
@@ -124,29 +128,32 @@
             this.gbRoleEmployee.Enabled = false;
             this.gbRoleEmployee.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gbRoleEmployee.ForeColor = System.Drawing.Color.Black;
-            this.gbRoleEmployee.Location = new System.Drawing.Point(782, 126);
+            this.gbRoleEmployee.Location = new System.Drawing.Point(753, 113);
             this.gbRoleEmployee.Name = "gbRoleEmployee";
             this.gbRoleEmployee.Size = new System.Drawing.Size(656, 409);
-            this.gbRoleEmployee.TabIndex = 47;
+            this.gbRoleEmployee.TabIndex = 64;
             // 
             // btnDeleteStaff
             // 
+            this.btnDeleteStaff.BorderRadius = 5;
             this.btnDeleteStaff.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnDeleteStaff.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnDeleteStaff.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnDeleteStaff.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnDeleteStaff.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnDeleteStaff.ForeColor = System.Drawing.Color.Black;
-            this.btnDeleteStaff.Location = new System.Drawing.Point(1249, 547);
+            this.btnDeleteStaff.FillColor = System.Drawing.Color.Red;
+            this.btnDeleteStaff.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteStaff.ForeColor = System.Drawing.Color.White;
+            this.btnDeleteStaff.Location = new System.Drawing.Point(1267, 550);
             this.btnDeleteStaff.Name = "btnDeleteStaff";
-            this.btnDeleteStaff.Size = new System.Drawing.Size(180, 45);
-            this.btnDeleteStaff.TabIndex = 46;
+            this.btnDeleteStaff.Size = new System.Drawing.Size(142, 45);
+            this.btnDeleteStaff.TabIndex = 63;
             this.btnDeleteStaff.Text = "Xóa";
             this.btnDeleteStaff.Click += new System.EventHandler(this.btnDeleteStaff_Click);
             // 
             // cbPostion
             // 
             this.cbPostion.BackColor = System.Drawing.Color.Transparent;
+            this.cbPostion.BorderRadius = 10;
             this.cbPostion.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cbPostion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbPostion.Enabled = false;
@@ -158,14 +165,15 @@
             this.cbPostion.Items.AddRange(new object[] {
             "Nhân Viên",
             "Quản Lý"});
-            this.cbPostion.Location = new System.Drawing.Point(280, 325);
+            this.cbPostion.Location = new System.Drawing.Point(307, 289);
             this.cbPostion.Name = "cbPostion";
             this.cbPostion.Size = new System.Drawing.Size(334, 36);
-            this.cbPostion.TabIndex = 45;
+            this.cbPostion.TabIndex = 62;
             // 
             // cbBrands
             // 
             this.cbBrands.BackColor = System.Drawing.Color.Transparent;
+            this.cbBrands.BorderRadius = 10;
             this.cbBrands.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cbBrands.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbBrands.Enabled = false;
@@ -174,33 +182,34 @@
             this.cbBrands.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cbBrands.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cbBrands.ItemHeight = 30;
-            this.cbBrands.Location = new System.Drawing.Point(280, 388);
+            this.cbBrands.Location = new System.Drawing.Point(307, 352);
             this.cbBrands.Name = "cbBrands";
             this.cbBrands.Size = new System.Drawing.Size(334, 36);
-            this.cbBrands.TabIndex = 44;
+            this.cbBrands.TabIndex = 61;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(37, 388);
+            this.label5.Location = new System.Drawing.Point(66, 359);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(126, 29);
-            this.label5.TabIndex = 43;
+            this.label5.TabIndex = 60;
             this.label5.Text = "Chi nhánh:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(37, 332);
+            this.label4.Location = new System.Drawing.Point(66, 296);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(104, 29);
-            this.label4.TabIndex = 42;
+            this.label4.TabIndex = 59;
             this.label4.Text = "Chức vụ:";
             // 
             // txtEmailEmployee
             // 
+            this.txtEmailEmployee.BorderRadius = 10;
             this.txtEmailEmployee.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtEmailEmployee.DefaultText = "";
             this.txtEmailEmployee.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -208,9 +217,10 @@
             this.txtEmailEmployee.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtEmailEmployee.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtEmailEmployee.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtEmailEmployee.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtEmailEmployee.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmailEmployee.ForeColor = System.Drawing.Color.Black;
             this.txtEmailEmployee.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtEmailEmployee.Location = new System.Drawing.Point(280, 257);
+            this.txtEmailEmployee.Location = new System.Drawing.Point(307, 221);
             this.txtEmailEmployee.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtEmailEmployee.Name = "txtEmailEmployee";
             this.txtEmailEmployee.PasswordChar = '\0';
@@ -218,20 +228,21 @@
             this.txtEmailEmployee.ReadOnly = true;
             this.txtEmailEmployee.SelectedText = "";
             this.txtEmailEmployee.Size = new System.Drawing.Size(334, 39);
-            this.txtEmailEmployee.TabIndex = 41;
+            this.txtEmailEmployee.TabIndex = 58;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(39, 257);
+            this.label3.Location = new System.Drawing.Point(70, 231);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(80, 29);
-            this.label3.TabIndex = 40;
+            this.label3.TabIndex = 57;
             this.label3.Text = "Email:";
             // 
             // txtPhoneEmployee
             // 
+            this.txtPhoneEmployee.BorderRadius = 10;
             this.txtPhoneEmployee.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtPhoneEmployee.DefaultText = "";
             this.txtPhoneEmployee.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -239,9 +250,10 @@
             this.txtPhoneEmployee.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtPhoneEmployee.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtPhoneEmployee.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPhoneEmployee.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtPhoneEmployee.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPhoneEmployee.ForeColor = System.Drawing.Color.Black;
             this.txtPhoneEmployee.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPhoneEmployee.Location = new System.Drawing.Point(280, 194);
+            this.txtPhoneEmployee.Location = new System.Drawing.Point(307, 158);
             this.txtPhoneEmployee.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtPhoneEmployee.Name = "txtPhoneEmployee";
             this.txtPhoneEmployee.PasswordChar = '\0';
@@ -249,30 +261,31 @@
             this.txtPhoneEmployee.ReadOnly = true;
             this.txtPhoneEmployee.SelectedText = "";
             this.txtPhoneEmployee.Size = new System.Drawing.Size(334, 39);
-            this.txtPhoneEmployee.TabIndex = 39;
+            this.txtPhoneEmployee.TabIndex = 56;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(37, 194);
+            this.label2.Location = new System.Drawing.Point(70, 168);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(166, 29);
-            this.label2.TabIndex = 38;
+            this.label2.TabIndex = 55;
             this.label2.Text = "Số điện thoại: ";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(39, 126);
+            this.label1.Location = new System.Drawing.Point(66, 100);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(164, 29);
-            this.label1.TabIndex = 37;
-            this.label1.Text = "Tên nhân viên";
+            this.label1.Size = new System.Drawing.Size(170, 29);
+            this.label1.TabIndex = 54;
+            this.label1.Text = "Tên nhân viên:";
             // 
             // txtNameEmployee
             // 
+            this.txtNameEmployee.BorderRadius = 10;
             this.txtNameEmployee.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtNameEmployee.DefaultText = "";
             this.txtNameEmployee.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -280,9 +293,10 @@
             this.txtNameEmployee.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtNameEmployee.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtNameEmployee.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtNameEmployee.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtNameEmployee.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNameEmployee.ForeColor = System.Drawing.Color.Black;
             this.txtNameEmployee.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtNameEmployee.Location = new System.Drawing.Point(280, 126);
+            this.txtNameEmployee.Location = new System.Drawing.Point(307, 90);
             this.txtNameEmployee.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtNameEmployee.Name = "txtNameEmployee";
             this.txtNameEmployee.PasswordChar = '\0';
@@ -290,7 +304,7 @@
             this.txtNameEmployee.ReadOnly = true;
             this.txtNameEmployee.SelectedText = "";
             this.txtNameEmployee.Size = new System.Drawing.Size(334, 39);
-            this.txtNameEmployee.TabIndex = 36;
+            this.txtNameEmployee.TabIndex = 53;
             // 
             // DeleteStaff
             // 

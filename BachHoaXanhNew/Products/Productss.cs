@@ -15,11 +15,14 @@ namespace BachHoaXanhNew.Products
     public partial class Productss : Form
     {
         int id_product;
-        ApplicationDbContext data = new ApplicationDbContext();
+        private Form parentForm;
 
-        public Productss()
+        ApplicationDbContext data = new ApplicationDbContext();
+        public Productss(Form parent)
         {
             InitializeComponent();
+            this.parentForm = parent;
+
         }
 
         private Form currentFormChild;
@@ -87,11 +90,6 @@ namespace BachHoaXanhNew.Products
             }
         }
 
-        private void btnSearch_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnSearch_Click_1(object sender, EventArgs e)
         {
             int idSearch = 0;
@@ -116,7 +114,11 @@ namespace BachHoaXanhNew.Products
 
         private void btnLoadPage_Click(object sender, EventArgs e)
         {
-            LoadProduct();
+            if (parentForm is Home mainForm)
+            {
+                mainForm.LoadProduct(); // Gọi lại hàm LoadPage() của form cha
+            }
+            this.Close();
         }
     }
 }

@@ -16,9 +16,12 @@ namespace BachHoaXanhNew.Branchss
     {
         ApplicationDbContext data = new ApplicationDbContext();
         int idBranch;
-        public Branchs()
+        private Form parentForm;
+        public Branchs(Form parent)
         {
             InitializeComponent();
+            this.parentForm = parent;
+
         }
 
 

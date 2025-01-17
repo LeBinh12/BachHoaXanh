@@ -16,11 +16,14 @@ namespace BachHoaXanhNew
 {
     public partial class History : Form
     {
-        ApplicationDbContext data = new ApplicationDbContext();
+        private Form parentForm;
 
-        public History()
+        ApplicationDbContext data = new ApplicationDbContext();
+        public History(Form parent)
         {
             InitializeComponent();
+            this.parentForm = parent;
+
         }
 
         public void LoadProduct()

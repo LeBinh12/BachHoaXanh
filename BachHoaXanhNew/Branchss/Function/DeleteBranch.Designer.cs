@@ -135,6 +135,7 @@ namespace BachHoaXanhNew.Branchss.Function
             this.btnExit.Size = new System.Drawing.Size(146, 45);
             this.btnExit.TabIndex = 5;
             this.btnExit.Text = "Thoát";
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnDelete
             // 

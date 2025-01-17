@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnAddProductExel = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
             this.txtQuantity = new Guna.UI2.WinForms.Guna2TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -38,8 +39,6 @@
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.cbSuppliers = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.lblMessage = new System.Windows.Forms.Label();
-            this.btnExit = new Guna.UI2.WinForms.Guna2Button();
             this.btnSave = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.cbCategories = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -50,7 +49,6 @@
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.txtProductID = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnAddProductExel = new Guna.UI2.WinForms.Guna2Button();
             this.groupBox1.SuspendLayout();
             this.guna2Panel6.SuspendLayout();
             this.guna2Panel5.SuspendLayout();
@@ -66,8 +64,6 @@
             this.groupBox1.Controls.Add(this.guna2Panel6);
             this.groupBox1.Controls.Add(this.guna2Panel5);
             this.groupBox1.Controls.Add(this.guna2Panel4);
-            this.groupBox1.Controls.Add(this.lblMessage);
-            this.groupBox1.Controls.Add(this.btnExit);
             this.groupBox1.Controls.Add(this.btnSave);
             this.groupBox1.Controls.Add(this.guna2Panel3);
             this.groupBox1.Controls.Add(this.guna2Panel2);
@@ -80,6 +76,24 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thêm Loại Sản Phẩm";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // btnAddProductExel
+            // 
+            this.btnAddProductExel.BorderRadius = 5;
+            this.btnAddProductExel.BorderThickness = 2;
+            this.btnAddProductExel.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnAddProductExel.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnAddProductExel.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnAddProductExel.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnAddProductExel.FillColor = System.Drawing.Color.LimeGreen;
+            this.btnAddProductExel.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddProductExel.ForeColor = System.Drawing.Color.Black;
+            this.btnAddProductExel.Location = new System.Drawing.Point(547, 471);
+            this.btnAddProductExel.Name = "btnAddProductExel";
+            this.btnAddProductExel.Size = new System.Drawing.Size(146, 45);
+            this.btnAddProductExel.TabIndex = 6;
+            this.btnAddProductExel.Text = "Thêm Exel";
+            this.btnAddProductExel.Click += new System.EventHandler(this.btnAddProductExel_Click);
             // 
             // guna2Panel6
             // 
@@ -199,35 +213,6 @@
             this.label4.Text = "Nhà cung cấp:";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
-            // lblMessage
-            // 
-            this.lblMessage.AutoSize = true;
-            this.lblMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMessage.Location = new System.Drawing.Point(29, 437);
-            this.lblMessage.Name = "lblMessage";
-            this.lblMessage.Size = new System.Drawing.Size(154, 20);
-            this.lblMessage.TabIndex = 2;
-            this.lblMessage.Text = "Thông báo lỗi ở đây";
-            this.lblMessage.Click += new System.EventHandler(this.lblMessage_Click);
-            // 
-            // btnExit
-            // 
-            this.btnExit.BorderRadius = 5;
-            this.btnExit.BorderThickness = 2;
-            this.btnExit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnExit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnExit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnExit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnExit.FillColor = System.Drawing.Color.Red;
-            this.btnExit.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.ForeColor = System.Drawing.Color.White;
-            this.btnExit.Location = new System.Drawing.Point(754, 471);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(146, 45);
-            this.btnExit.TabIndex = 5;
-            this.btnExit.Text = "Thoát";
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
-            // 
             // btnSave
             // 
             this.btnSave.BorderRadius = 5;
@@ -239,7 +224,7 @@
             this.btnSave.FillColor = System.Drawing.Color.LimeGreen;
             this.btnSave.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.ForeColor = System.Drawing.Color.Black;
-            this.btnSave.Location = new System.Drawing.Point(591, 471);
+            this.btnSave.Location = new System.Drawing.Point(754, 471);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(146, 45);
             this.btnSave.TabIndex = 4;
@@ -364,24 +349,6 @@
             this.label1.Text = "Mã sản phẩm:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // btnAddProductExel
-            // 
-            this.btnAddProductExel.BorderRadius = 5;
-            this.btnAddProductExel.BorderThickness = 2;
-            this.btnAddProductExel.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnAddProductExel.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnAddProductExel.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnAddProductExel.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnAddProductExel.FillColor = System.Drawing.Color.LimeGreen;
-            this.btnAddProductExel.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddProductExel.ForeColor = System.Drawing.Color.Black;
-            this.btnAddProductExel.Location = new System.Drawing.Point(363, 471);
-            this.btnAddProductExel.Name = "btnAddProductExel";
-            this.btnAddProductExel.Size = new System.Drawing.Size(146, 45);
-            this.btnAddProductExel.TabIndex = 6;
-            this.btnAddProductExel.Text = "Thêm Exel";
-            this.btnAddProductExel.Click += new System.EventHandler(this.btnAddProductExel_Click);
-            // 
             // AddProducts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -392,7 +359,6 @@
             this.Text = "AddProducts";
             this.Load += new System.EventHandler(this.AddProducts_Load);
             this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.guna2Panel6.ResumeLayout(false);
             this.guna2Panel6.PerformLayout();
             this.guna2Panel5.ResumeLayout(false);
@@ -412,8 +378,6 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label lblMessage;
-        private Guna.UI2.WinForms.Guna2Button btnExit;
         private Guna.UI2.WinForms.Guna2Button btnSave;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private System.Windows.Forms.Label label3;

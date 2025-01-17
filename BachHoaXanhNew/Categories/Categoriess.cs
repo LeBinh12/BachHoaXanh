@@ -16,9 +16,14 @@ namespace BachHoaXanhNew.Categories
     {
         ApplicationDbContext data = new ApplicationDbContext();
         int idCategory;
-        public Categoriess()
+        private Form parentForm;
+
+
+        public Categoriess(Form parent)
         {
             InitializeComponent();
+            this.parentForm = parent;
+
         }
 
         private Form currentFormChild;
@@ -100,6 +105,20 @@ namespace BachHoaXanhNew.Categories
                 var selectedRow = dtgvCategories.Rows[e.RowIndex];
                 idCategory = Convert.ToInt32(selectedRow.Cells["ID_CATEGORY"].Value);
             }
+        }
+
+        private void btnDeleteCategory_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            if (parentForm is Home mainForm)
+            {
+                mainForm.LoadCategories(); // Gọi lại hàm LoadPage() của form cha
+            }
+            this.Close();
         }
     }
 }

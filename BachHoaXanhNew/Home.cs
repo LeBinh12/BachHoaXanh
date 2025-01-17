@@ -28,7 +28,7 @@ namespace BachHoaXanhNew
             checkUser = check;
         }
         private Form currentFormChild;
-        private void OpenChildForm(Form childForm)
+        public void OpenChildForm(Form childForm)
         {
             if (currentFormChild != null)
             {
@@ -48,9 +48,17 @@ namespace BachHoaXanhNew
             OpenChildForm(new ChangePassword(idUser));
         }
 
-        private void btnSupplier_Click(object sender, EventArgs e)
+
+
+        public void LoadSupplier()
         {
-            OpenChildForm(new FormSuppliers());
+            OpenChildForm(new FormSuppliers(this));
+
+        }
+
+        public void btnSupplier_Click(object sender, EventArgs e)
+        {
+            LoadSupplier();
         }
 
         private void panelBody_Paint(object sender, PaintEventArgs e)
@@ -58,24 +66,47 @@ namespace BachHoaXanhNew
 
         }
 
+        public void LoadSatff()
+        {
+            OpenChildForm(new Staff(this));
+        }
+
         private void btnStaff_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Staff());
+            LoadSatff();
+        }
+
+        public void LoadCategories()
+        {
+            OpenChildForm(new Categoriess(this));
         }
 
         private void btnCategory_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Categoriess());
+            LoadCategories();
         }
+
+
+        public void LoadProduct()
+        {
+            OpenChildForm(new Productss(this));
+        }
+
 
         private void btnProduct_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Productss());
+            LoadProduct();
+        }
+
+        public void LoadBranch()
+        {
+            OpenChildForm(new Branchs(this));
+
         }
 
         private void btnBranch_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Branchs());
+            LoadBranch();
         }
 
         string NameUser(int user)
@@ -134,14 +165,23 @@ namespace BachHoaXanhNew
         {
         }
 
+        public void Pay()
+        {
+            OpenChildForm(new Test(this));
+        }
+
         private void btnBill_Click_1(object sender, EventArgs e)
         {
-            OpenChildForm(new Test());
+            Pay();
+        }
+        public void LoadHistory()
+        {
+            OpenChildForm(new History(this));
         }
 
         private void btnStatisticalHistory_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new History());
+            LoadHistory();
         }
     }
 }

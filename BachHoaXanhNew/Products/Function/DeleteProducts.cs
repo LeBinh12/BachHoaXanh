@@ -80,15 +80,8 @@ namespace BachHoaXanhNew.Products.Function
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txtProductID.Text))
-            {
-                MessageBox.Show("Bạn cần nhập mã sản phẩm!");
-                return;
-            }
 
-            int id = int.Parse(txtProductID.Text);
-
-            var product = data.Products.SingleOrDefault(p => p.ID_PRODUCT == id);
+            var product = data.Products.SingleOrDefault(p => p.ID_PRODUCT == product_id);
             data.Products.Remove(product);
             data.SaveChanges();
 

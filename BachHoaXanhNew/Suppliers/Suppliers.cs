@@ -17,9 +17,13 @@ namespace BachHoaXanhNew.Suppliers
     {
         ApplicationDbContext data = new ApplicationDbContext();
         int idSuppliers;
-        public FormSuppliers()
+        private Form parentForm;
+        public FormSuppliers(Form parent)
         {
             InitializeComponent();
+
+            this.parentForm = parent;
+
         }
         private Form currentFormChild;
         private void OpenChildForm(Form childForm)
@@ -113,6 +117,15 @@ namespace BachHoaXanhNew.Suppliers
                 var selectedRow = dtgvSuppliers.Rows[e.RowIndex];
                 idSuppliers = Convert.ToInt32(selectedRow.Cells["ID_SUPPLIER"].Value);
             }
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            if (parentForm is Home mainForm)
+            {
+                mainForm.LoadSupplier(); // Gọi lại hàm LoadPage() của form cha
+            }
+            this.Close();
         }
     }
 }

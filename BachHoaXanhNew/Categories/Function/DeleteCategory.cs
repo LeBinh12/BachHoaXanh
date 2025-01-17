@@ -37,11 +37,6 @@ namespace BachHoaXanhNew.Categories.Function
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txtCategoryID.Text))
-            {
-                MessageBox.Show("Bạn cần nhạp mã để tìm kiếm!");
-                return;
-            }
 
             int id = int.Parse(txtCategoryID.Text);
 

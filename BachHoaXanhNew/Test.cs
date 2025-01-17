@@ -14,13 +14,15 @@ namespace BachHoaXanhNew
 {
     public partial class Test : Form
     {
-        ApplicationDbContext data = new ApplicationDbContext();
+        private Form parentForm;
 
-        public Test()
+        ApplicationDbContext data = new ApplicationDbContext();
+        public Test(Form parent)
         {
             InitializeComponent();
-        }
+            this.parentForm = parent;
 
+        }
         public void LoadProduct()
         {
             var product = data.Products.ToList();
@@ -256,7 +258,7 @@ namespace BachHoaXanhNew
                 SaveBillDetails(idBill, totalPrice);
 
                 MessageBox.Show("Thanh toán thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                MessageBox.Show($"Mã đơn hàng của bạn là {idBill} !", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 dtgvBill.Rows.Clear();
                 RefreshProductGrid();
             }

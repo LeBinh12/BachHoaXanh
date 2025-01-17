@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.lblMessage = new System.Windows.Forms.Label();
-            this.btnExit = new Guna.UI2.WinForms.Guna2Button();
             this.btnUpdate = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.txtCategoryDesription = new Guna.UI2.WinForms.Guna2TextBox();
@@ -49,46 +47,17 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.lblMessage);
-            this.groupBox1.Controls.Add(this.btnExit);
             this.groupBox1.Controls.Add(this.btnUpdate);
             this.groupBox1.Controls.Add(this.guna2Panel3);
             this.groupBox1.Controls.Add(this.guna2Panel2);
             this.groupBox1.Controls.Add(this.guna2Panel1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(80, 22);
+            this.groupBox1.Location = new System.Drawing.Point(37, 112);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(995, 492);
-            this.groupBox1.TabIndex = 1;
+            this.groupBox1.Size = new System.Drawing.Size(1025, 337);
+            this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Cập Nhật Loại Sản Phẩm";
-            // 
-            // lblMessage
-            // 
-            this.lblMessage.AutoSize = true;
-            this.lblMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMessage.Location = new System.Drawing.Point(602, 313);
-            this.lblMessage.Name = "lblMessage";
-            this.lblMessage.Size = new System.Drawing.Size(154, 20);
-            this.lblMessage.TabIndex = 6;
-            this.lblMessage.Text = "Thông báo lỗi ở đây";
-            // 
-            // btnExit
-            // 
-            this.btnExit.BorderRadius = 5;
-            this.btnExit.BorderThickness = 2;
-            this.btnExit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnExit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnExit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnExit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnExit.FillColor = System.Drawing.Color.Red;
-            this.btnExit.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.ForeColor = System.Drawing.Color.White;
-            this.btnExit.Location = new System.Drawing.Point(757, 200);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(146, 45);
-            this.btnExit.TabIndex = 8;
-            this.btnExit.Text = "Thoát";
             // 
             // btnUpdate
             // 
@@ -101,7 +70,7 @@
             this.btnUpdate.FillColor = System.Drawing.Color.LimeGreen;
             this.btnUpdate.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.ForeColor = System.Drawing.Color.Black;
-            this.btnUpdate.Location = new System.Drawing.Point(465, 200);
+            this.btnUpdate.Location = new System.Drawing.Point(757, 230);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(146, 45);
             this.btnUpdate.TabIndex = 7;
@@ -112,9 +81,9 @@
             // 
             this.guna2Panel3.Controls.Add(this.txtCategoryDesription);
             this.guna2Panel3.Controls.Add(this.label3);
-            this.guna2Panel3.Location = new System.Drawing.Point(14, 158);
+            this.guna2Panel3.Location = new System.Drawing.Point(7, 168);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(430, 249);
+            this.guna2Panel3.Size = new System.Drawing.Size(437, 107);
             this.guna2Panel3.TabIndex = 3;
             // 
             // txtCategoryDesription
@@ -126,15 +95,16 @@
             this.txtCategoryDesription.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtCategoryDesription.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtCategoryDesription.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtCategoryDesription.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtCategoryDesription.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCategoryDesription.ForeColor = System.Drawing.Color.Black;
             this.txtCategoryDesription.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtCategoryDesription.Location = new System.Drawing.Point(8, 42);
-            this.txtCategoryDesription.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtCategoryDesription.Location = new System.Drawing.Point(8, 48);
+            this.txtCategoryDesription.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.txtCategoryDesription.Name = "txtCategoryDesription";
             this.txtCategoryDesription.PasswordChar = '\0';
             this.txtCategoryDesription.PlaceholderText = "";
             this.txtCategoryDesription.SelectedText = "";
-            this.txtCategoryDesription.Size = new System.Drawing.Size(415, 203);
+            this.txtCategoryDesription.Size = new System.Drawing.Size(422, 54);
             this.txtCategoryDesription.TabIndex = 1;
             // 
             // label3
@@ -164,7 +134,8 @@
             this.txtCategoryName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtCategoryName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtCategoryName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtCategoryName.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtCategoryName.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCategoryName.ForeColor = System.Drawing.Color.Black;
             this.txtCategoryName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtCategoryName.Location = new System.Drawing.Point(8, 42);
             this.txtCategoryName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -202,7 +173,8 @@
             this.txtCategoryID.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtCategoryID.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtCategoryID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtCategoryID.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtCategoryID.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCategoryID.ForeColor = System.Drawing.Color.Black;
             this.txtCategoryID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtCategoryID.Location = new System.Drawing.Point(8, 42);
             this.txtCategoryID.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -233,7 +205,6 @@
             this.Text = "UpdateCategory";
             this.Load += new System.EventHandler(this.UpdateCategory_Load);
             this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel3.PerformLayout();
             this.guna2Panel2.ResumeLayout(false);
@@ -247,6 +218,7 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
+        private Guna.UI2.WinForms.Guna2Button btnUpdate;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private Guna.UI2.WinForms.Guna2TextBox txtCategoryDesription;
         private System.Windows.Forms.Label label3;
@@ -256,8 +228,5 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2TextBox txtCategoryID;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lblMessage;
-        private Guna.UI2.WinForms.Guna2Button btnExit;
-        private Guna.UI2.WinForms.Guna2Button btnUpdate;
     }
 }

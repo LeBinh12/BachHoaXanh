@@ -59,11 +59,7 @@ namespace BachHoaXanhNew.Branchss.Function
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txtBranchId.Text))
-            {
-                MessageBox.Show("Bạn cần nhập mã chi nhánh");
-                return;
-            }
+
 
             int id = int.Parse(txtBranchId.Text);
 
@@ -89,6 +85,11 @@ namespace BachHoaXanhNew.Branchss.Function
         private void DeleteBranch_Load(object sender, EventArgs e)
         {
             LoadSearch(idBranch);
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

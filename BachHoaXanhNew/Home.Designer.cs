@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnStatisticalHistory = new Guna.UI2.WinForms.Guna2Button();
             this.btnBill = new Guna.UI2.WinForms.Guna2Button();
             this.lblUser = new System.Windows.Forms.Label();
             this.btnBranch = new Guna.UI2.WinForms.Guna2Button();
@@ -41,7 +42,6 @@
             this.panelBody = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.lblBranch = new System.Windows.Forms.Label();
-            this.btnStatisticalHistory = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
@@ -64,6 +64,30 @@
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(302, 1055);
             this.guna2Panel2.TabIndex = 1;
+            // 
+            // btnStatisticalHistory
+            // 
+            this.btnStatisticalHistory.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnStatisticalHistory.BorderColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnStatisticalHistory.BorderRadius = 10;
+            this.btnStatisticalHistory.BorderThickness = 1;
+            this.btnStatisticalHistory.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnStatisticalHistory.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnStatisticalHistory.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnStatisticalHistory.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnStatisticalHistory.FillColor = System.Drawing.Color.PapayaWhip;
+            this.btnStatisticalHistory.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStatisticalHistory.ForeColor = System.Drawing.Color.Black;
+            this.btnStatisticalHistory.Image = global::BachHoaXanhNew.Properties.Resources.Loading;
+            this.btnStatisticalHistory.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnStatisticalHistory.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnStatisticalHistory.Location = new System.Drawing.Point(12, 145);
+            this.btnStatisticalHistory.Name = "btnStatisticalHistory";
+            this.btnStatisticalHistory.Size = new System.Drawing.Size(273, 66);
+            this.btnStatisticalHistory.TabIndex = 11;
+            this.btnStatisticalHistory.Text = "Thống kê và lịch sử";
+            this.btnStatisticalHistory.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnStatisticalHistory.Click += new System.EventHandler(this.btnStatisticalHistory_Click);
             // 
             // btnBill
             // 
@@ -289,30 +313,6 @@
             this.lblBranch.Text = "HỆ THỐNG QUẢN LÝ BÁCH HÓA XANH";
             this.lblBranch.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblBranch.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // btnStatisticalHistory
-            // 
-            this.btnStatisticalHistory.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnStatisticalHistory.BorderColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnStatisticalHistory.BorderRadius = 10;
-            this.btnStatisticalHistory.BorderThickness = 1;
-            this.btnStatisticalHistory.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnStatisticalHistory.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnStatisticalHistory.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnStatisticalHistory.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnStatisticalHistory.FillColor = System.Drawing.Color.PapayaWhip;
-            this.btnStatisticalHistory.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStatisticalHistory.ForeColor = System.Drawing.Color.Black;
-            this.btnStatisticalHistory.Image = global::BachHoaXanhNew.Properties.Resources.Loading;
-            this.btnStatisticalHistory.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnStatisticalHistory.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnStatisticalHistory.Location = new System.Drawing.Point(12, 145);
-            this.btnStatisticalHistory.Name = "btnStatisticalHistory";
-            this.btnStatisticalHistory.Size = new System.Drawing.Size(273, 66);
-            this.btnStatisticalHistory.TabIndex = 11;
-            this.btnStatisticalHistory.Text = "Thống kê và lịch sử";
-            this.btnStatisticalHistory.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnStatisticalHistory.Click += new System.EventHandler(this.btnStatisticalHistory_Click);
             // 
             // Home
             // 

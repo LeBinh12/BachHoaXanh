@@ -16,9 +16,13 @@ namespace BachHoaXanhNew.Staffs
     {
         private int selectedEmployeeId;
         ApplicationDbContext data = new ApplicationDbContext();
-        public Staff()
+        private Form parentForm;
+
+        public Staff(Form parent)
         {
             InitializeComponent();
+            this.parentForm = parent;
+
         }
         private Form currentFormChild;
         private void OpenChildForm(Form childForm)
@@ -126,6 +130,15 @@ namespace BachHoaXanhNew.Staffs
 
 
             dtgvStaff.DataSource = productSearch;
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            if (parentForm is Home mainForm)
+            {
+                mainForm.LoadSatff(); // Gọi lại hàm LoadPage() của form cha
+            }
+            this.Close();
         }
     }
 }

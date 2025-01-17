@@ -154,5 +154,15 @@ namespace BachHoaXanhNew.Products.Function
         {
             this.Close();
         }
+
+        private void AddProductExel_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtgvProduct_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
